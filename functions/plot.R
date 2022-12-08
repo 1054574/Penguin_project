@@ -7,7 +7,7 @@ plot_mass_sex_figure <- function(penguins_clean_now){
   labs(x = "Body mass (g)",
        y = "Count",
        title = "Body mass differences of male and female penguins of the Gentoo penguin species",
-       caption = "Figure 1: Hisotgram of the distribution of body mass for males and females of the Gentoo penguin species, with dashed lines representing the means") + 
+       caption = "Figure 1: Histogram of the distribution of body mass for males and females of the Gentoo penguin species, with dashed lines representing the means") + 
    geom_vline(xintercept= c(female_mean,male_mean), size=1, colour = "black", linetype = "dashed", size = 1) + #Add the mean line for the female and male penguins
    annotate(geom = "text", 
             label = c(as.character("Female group mean"), as.character("Male group mean")),
