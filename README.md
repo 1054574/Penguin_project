@@ -6,4 +6,4 @@ The downloaded zip should contain the following files;
 4. figures
 
 Along with these, there is a main R script, referred to as penguin_analysisQ4 that includes all the necessary statistical tests and code to produce the resulting figures.  
-The working directory has been set to the directory of the active document using this code setwd(dirname(rstudioapi::getActiveDocumentContext()$path)).  
+To set the working directory on your device, use setwd() to your location of the unzipped "Penguin_project" folder that contains the necessary folder structure to allow the code to run.
