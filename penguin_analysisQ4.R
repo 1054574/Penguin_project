@@ -29,7 +29,7 @@ write.csv(penguins_clean_now, "data_clean/penguins_clean_now.csv")
 #Assumptions:
 #1. Independence of the observations. There is no relationship between the observations in each group.
 #2. No significant outliers in the groups
-#3. the two groups of samples should be normally distributed.
+#3. The two groups of samples should be normally distributed.
 #4. The variances of the two groups should not be significantly different.
 
 #Plot histograms and qqplots to check the normality of the two groups and for the presence of outliers.
