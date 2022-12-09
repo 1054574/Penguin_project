@@ -2,7 +2,7 @@
 #Question 4: 
 # Run a statistical test on the Palmer Penguins dataset and produce a figure to explain it.
 
-#Set the working directory to your location of the unzipped folder "PenguinProject" that contains the code and figure files.
+#Set the working directory to your location of the unzipped folder "Penguin_project" that contains the code and figure files.
 
 #Load the libraries and the cleaning function
 source("functions/libraries.R")
